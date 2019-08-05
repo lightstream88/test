@@ -49,14 +49,14 @@ if [ $ch -eq 1 ];then
 clear
 echo -e "\e[1;32m"
 rm *.xxx >/dev/null 2>&1
-python3 bomber.py
+python3 sms-bomber.py
 rm *.xxx >/dev/null 2>&1
 exit 0
 elif [ $ch -eq 2 ];then
 clear
 echo -e "\e[1;32m"
 echo 'Call Bomb By SpeedX'> call.xxx
-python3 bomber.py call
+python3 sms-bomber.py call
 rm *.xxx >/dev/null 2>&1
 exit 0
 elif [ $ch -eq 3 ];then
@@ -83,7 +83,7 @@ elif [ $ch -eq 4 ];then
 clear
 echo -e "\e[1;32m"
 echo 'Protect List By SpeedX'> protect.xxx
-python3 bomber.py protect
+python3 sms-bomber.py protect
 rm *.xxx >/dev/null 2>&1
 elif [ $ch -eq 5 ];then
 clear
